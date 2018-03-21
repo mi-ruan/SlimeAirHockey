@@ -1,0 +1,23 @@
+{
+  "name": "SlimeAirHockey",
+  "version": "1.0.0",
+  "description": "Slime originated from the old browser game Slime Volleyball where each player controls a semicircle character (slime) and plays volleyball each other. For this project, the sport will be the arcade classic air hockey. There will be a goal on either side and points are scored when the player enters the opposite goal. The ball or puck can bounce off all four sides of the wall except for the goal. The game starts off with the puck in the middle and players jockey for the puck. After a goal, the loser gets the initiative to hit the puck first. For this game, players can cross the center line. Game will end after a set amount of time(1 - 2 mins) and winner is decided by who scored the most.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mi-ruan/SlimeAirHockey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mi-ruan/SlimeAirHockey/issues"
+  },
+  "homepage": "https://github.com/mi-ruan/SlimeAirHockey#readme",
+  "dependencies": {
+    "popmotion": "^8.1.21"
+  }
+}
