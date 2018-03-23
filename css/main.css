@@ -1,0 +1,16 @@
+#game-canvas {
+  width: 800px;
+  height: 400px;
+}
+
+.title-logo {
+  width: 275px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
