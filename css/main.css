@@ -87,7 +87,7 @@
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('images/snowbackground.gif') center center / cover no-repeat;
+    background: url('../images/snowbackground.jpg') center center / cover no-repeat;
   }
   .fullscreen-bg_video {
     display: none;
