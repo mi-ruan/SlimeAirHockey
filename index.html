@@ -7,9 +7,10 @@
   </head>
   <body>
     <div class="fullscreen-bg">
-      <video loop muted autoplay poster="images/snow_mountain.gif"
+      <video loop muted autoplay poster="images/snowbackground.gif"
       class="fullscreen-bg_video">
-        <source src="images/snow_mountain.mp4" type="video/mp4">
+        <source src="images/snowbackground.mov" />
+        <img src="images/snowbackground.jpg" title="your browser does not support the video tag" />
       </video>
     </div>
     <main class="main-container">
@@ -19,6 +20,7 @@
         <canvas id="game-canvas"></canvas>
       </div>
     </main>
+    <img src="images/fireball_spread.png" id="fireball" />
     <script src="vendor/keymaster.js"></script>
     <script type="text/javascript" src="./lib/bundle.js"></script>
   </body>

@@ -28,6 +28,12 @@
   cursor: pointer;
 }
 
+#fireball{
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
 .title-logo {
   width: 275px;
 }
@@ -81,7 +87,7 @@
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('images/snow_mountain.gif') center center / cover no-repeat;
+    background: url('images/snowbackground.gif') center center / cover no-repeat;
   }
   .fullscreen-bg_video {
     display: none;
