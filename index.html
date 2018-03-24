@@ -15,16 +15,35 @@
     </div>
     <main class="main-container">
       <img src="images/LogoMakr_Title.png" class="title-logo">
-      <div class="game-window">
-        <div id="goal-screen">
-          <h3 class="goal-goal">Goal</h3>
+      <div class="mid-section">
+        <div class="game-window">
+          <div id="goal-screen">
+            <h3 class="goal-goal">Goal</h3>
+          </div>
+          <div id="result-screen"></div>
+          <canvas id="game-canvas"></canvas>
+          <span class="instruction">
+            <img src="images/wasdKeys.png" class="wasd-keys"/>
+            <h6 class="player"> For Player 1 </h6>
+            <img src="images/arrowKeys.png" class="arrow-keys"/>
+            <h6 class="player"> For Player 2 </h6>
+          </span>
         </div>
-        <div id="result-screen"></div>
-        <canvas id="game-canvas"></canvas>
+        <div class="about-me">
+          <p> Slime Air Hockey is made by:</p>
+          <strong>Michael Ruan</strong>
+          <p> Software Developer who loves to create and play games</p>
+          <p> Check out my other works at: <p>
+          <a href="https://github.com/mi-ruan" class="fab fa-github">Github</a>
+          <a href="https://www.linkedin.com/in/michael-ruan-3051a994/"
+          class="fab fa-linkedin">Linkedin</a>
+        </div>
       </div>
     </main>
     <img src="images/fireball_spread.png" id="fireball" />
     <script src="vendor/keymaster.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     <script type="text/javascript" src="./lib/bundle.js"></script>
   </body>
 </html>

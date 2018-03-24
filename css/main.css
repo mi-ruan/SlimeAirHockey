@@ -4,7 +4,7 @@
 }
 
 #result-screen {
-  position: fixed;
+  position: absolute;
   width: 200px;
   height: 400px;
   background: white;
@@ -19,7 +19,7 @@
 }
 
 #goal-screen {
-  position: fixed;
+  position: absolute;
   width: 800px;
   height: 400px;
   background: rgba(0, 0, 0, 0.5);
@@ -70,7 +70,7 @@
 }
 
 .title-logo {
-  width: 275px;
+  width: 250px;
 }
 
 .main-container {
@@ -84,8 +84,55 @@
 .game-window{
   top: 0px;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.about-me {
+  width: 175px;
+  height: 275px;
+  margin: 0px 50px;
+  font-family: 'Roboto', sans-serif;
+  background: #D4EEF6;
+  border: 2px solid #E2E2E2;
+  padding: 0px 10px;
+}
+
+.player {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fab:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.instruction {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 300px;
+  background: #D4EEF6;
+  margin: 5px;
   justify-content: center;
   align-items: center;
+}
+
+.wasd-keys, .arrow-keys {
+  height: 50px;
+  margin: 0 5px;
 }
 
 .fullscreen-bg {
