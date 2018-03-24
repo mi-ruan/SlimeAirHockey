@@ -18,6 +18,41 @@
   z-index: 10;
 }
 
+#goal-screen {
+  position: fixed;
+  width: 800px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+@keyframes animated-goal {
+  0% {color: #FF0000}
+  12.5% {color: #D90000}
+  25% {color: #B20000}
+  37.5% {color: #8C0000}
+  50% {color: #FF2626}
+  62.5% {color: #FF4C4C}
+  75% {color: #FF7373}
+  87.% {color: #FF002A}
+  100% {color: #FF0000}
+}
+
+.goal-goal {
+  font-size: 100px;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: animated-goal;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+}
+
 #result-screen > button {
   width: 75%;
   cursor: pointer;
