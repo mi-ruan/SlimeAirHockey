@@ -118,9 +118,13 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.fab:hover {
+.fab, .fas {
+  margin: 10px;
+}
+
+.fab:hover, .fas:hover {
   cursor: pointer;
-  color: blue;
+  color: red;
 }
 
 .instruction {
