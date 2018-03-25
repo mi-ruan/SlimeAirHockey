@@ -17,7 +17,5 @@
     "url": "https://github.com/mi-ruan/SlimeAirHockey/issues"
   },
   "homepage": "https://github.com/mi-ruan/SlimeAirHockey#readme",
-  "dependencies": {
-    "popmotion": "^8.1.21"
-  }
+  "dependencies": {}
 }
