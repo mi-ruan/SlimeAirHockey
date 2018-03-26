@@ -117,6 +117,7 @@
   font-size: 16px;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+  margin: 0 5px;
 }
 
 .fab, .fas {
@@ -132,7 +133,7 @@
   display: flex;
   flex-direction: row;
   height: 30px;
-  width: 325px;
+  width: 450px;
   background: #D4EEF6;
   margin: 5px;
   justify-content: center;
