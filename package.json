@@ -17,5 +17,7 @@
     "url": "https://github.com/mi-ruan/SlimeAirHockey/issues"
   },
   "homepage": "https://github.com/mi-ruan/SlimeAirHockey#readme",
-  "dependencies": {}
+  "dependencies": {
+    "brain.js": "^1.1.2"
+  }
 }
