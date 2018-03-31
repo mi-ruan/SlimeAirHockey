@@ -2,10 +2,6 @@
 
 ###  [Live Website](http://www.michaelruan.xyz/SlimeAirHockey)
 
-### Gameplay Example
-
-![Gameplay](http://recordit.co/8wzbGmBuhQ.gif)
-
 
 ### Background
 
@@ -24,6 +20,7 @@ In this Slime Air Hockey, features include:
 This app contains a single screen with game window in the center. Control instructions are on the bottom of the game window. Personal Links such as Linkedin, Github, and Portfolio will be on the right of the game window.
 
 ![Snapshot](wiki/Snapshot_of_game.PNG)
+
 
 ### Architecture and Technologies
 *  JavaScript
