@@ -4,7 +4,8 @@
 
 ### Gameplay Example
 
-![Gameplay](http://recordit.co/H16iOCTiqU.gif)
+![Gameplay](http://recordit.co/8wzbGmBuhQ.gif)
+
 
 ### Background
 
