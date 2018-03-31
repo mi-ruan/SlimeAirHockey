@@ -1,4 +1,4 @@
-## JavaScript Project Proposal: Slime Air Hockey
+## Slime Air Hockey
 
 ###  [Live Website](http://www.michaelruan.xyz/SlimeAirHockey)
 
