@@ -1,6 +1,22 @@
+button {
+  background-color: #D4EEF6;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #6a9de6;
+  box-shadow: 1px 1px black;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+
 #game-canvas {
   width: 800px;
   height: 400px;
+  border: 1px solid #6A9DE6;
+  box-shadow: 1px 1px darkblue;
 }
 
 #result-screen {
@@ -59,6 +75,7 @@
 
 #result-screen > button {
   margin: 10px;
+  height: 200px;
   width: 75%;
   cursor: pointer;
 }
@@ -66,6 +83,14 @@
 #result-screen > button:hover {
   color: red;
   cursor: pointer;
+}
+
+.game-window > #result-screen > #option-back {
+  height: auto;
+}
+
+.game-window > #result-screen > #pause-screen {
+  height: auto;
 }
 
 #fireball{
@@ -125,6 +150,8 @@
   background: #D4EEF6;
   border: 2px solid #E2E2E2;
   padding: 0px 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px darkblue;
 }
 
 .player {
@@ -149,6 +176,8 @@
   height: 40px;
   width: 450px;
   background: #D4EEF6;
+  border: 1px solid #6A9DE6;
+  box-shadow: 1px 1px darkblue;
   margin: 5px;
   justify-content: center;
   align-items: center;
