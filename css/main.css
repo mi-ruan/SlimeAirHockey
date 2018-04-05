@@ -16,7 +16,8 @@ button {
   width: 800px;
   height: 400px;
   border: 1px solid #6A9DE6;
-  box-shadow: 1px 1px darkblue;
+  border-radius: 40px;
+  box-shadow: 0px 0px 30px darkblue;
 }
 
 #result-screen {
@@ -93,6 +94,10 @@ button {
   height: auto;
 }
 
+.game-window > #result-screen > #end-screen {
+  height: auto;
+}
+
 #fireball{
   width: 20px;
   height: 20px;
@@ -101,6 +106,7 @@ button {
 
 .title-logo {
   width: 250px;
+  margin-bottom: 5px;
 }
 
 .main-container {
