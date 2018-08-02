@@ -45,6 +45,8 @@ button {
   justify-content: center;
   align-items: center;
   display: none;
+  border-radius: 40px;
+  box-shadow: 0px 0px 30px darkblue;
 }
 
 @keyframes animated-goal {
